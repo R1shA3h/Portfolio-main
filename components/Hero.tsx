@@ -59,14 +59,22 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Rishabh Jain,A Next.js Developer & GenAI enthusiast
           </p>
-
-          <a href="#projects">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex space-x-4">
+            <a href="#projects">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="https://drive.google.com/file/d/1UXxCJaWDiTcV2v6SksD0lUl9rs5azTXJ/view?usp=sharing">
+              <MagicButton
+                title="View my Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
